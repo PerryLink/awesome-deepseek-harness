@@ -1,3 +1,17 @@
+> ⚠️ **转载声明（Fork Notice）**
+>
+> 本仓库是 GitHub 项目 **[`
+0xsline/awesome-deepseek-harness
+`](https://github.com/
+0xsline/awesome-deepseek-harness
+)** 的 Gitee 转载镜像，**并非原始项目**；所有代码与内容的著作权归原作者及贡献者所有，按原许可证发布。
+>
+> This repository is a Gitee repost (mirror) of the GitHub project [`
+0xsline/awesome-deepseek-harness
+`](https://github.com/
+0xsline/awesome-deepseek-harness
+) — **not the original project**. All code and content remain the property of their original authors and contributors, published under the original license.
+
 <p align="center">
  <a href="README.md">English</a>&nbsp;&nbsp;|&nbsp;&nbsp;
  <a href="README.zh-CN.md">简体中文</a>
@@ -10,10 +24,8 @@
 </div>
 
 # Awesome DeepSeek Harness [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-> **Fork notice:** this repository is a GitHub fork of [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness). All content belongs to its original authors and is republished under the original license; see the commit history for attribution.
-> **转载声明：** 本仓库是上游 [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) 的 GitHub fork（转载），内容版权归原作者所有，按原许可证发布，署名见提交历史。
 
-[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/0xsline-awesome-deepseek-harness)
+[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/0xsline.awesome-deepseek-harness)
 
 <!-- BANNER: luminous DeepSeek whale with agent-orchestration harness (1280×480) -->
 
@@ -704,3 +716,14 @@ Please have a look at [contributing.md](contributing.md). Entry standard: reposi
 ## Thanks
 
 Thanks to the [Linux Do community](https://linux.do/) for the support and exchange.
+---
+
+> **免责声明 / Disclaimer**
+>
+> 本仓库由 PerryLink 仅作**转载镜像**维护，不拥有、不修改本项目内容，亦不提供任何支持。任何问题、缺陷、建议或 Pull Request，请前往上游 GitHub 仓库提交：<https://github.com/
+0xsline/awesome-deepseek-harness
+>。本镜像不处理任何 issue / PR / 回复。若项目内容存在任何风险或权利争议，请直接联系上游原作者。
+>
+> This repository is maintained by PerryLink as a mirror/转载 only. PerryLink owns no content here and provides no support. For issues, questions or pull requests, please go to the original repository on GitHub: <https://github.com/
+0xsline/awesome-deepseek-harness
+>. All risks or rights disputes about the content should be directed to the original authors.
