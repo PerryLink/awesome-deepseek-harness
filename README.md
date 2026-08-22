@@ -10,6 +10,7 @@
 </div>
 
 # Awesome DeepSeek Harness [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/awesome-deepseek-harness)
 
 <!-- BANNER: luminous DeepSeek whale with agent-orchestration harness (1280×480) -->
 
