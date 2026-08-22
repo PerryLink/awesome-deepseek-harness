@@ -13,7 +13,7 @@
 > **Fork notice:** this repository is a GitHub fork of [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness). All content belongs to its original authors and is republished under the original license; see the commit history for attribution.
 > **转载声明：** 本仓库是上游 [0xsline/awesome-deepseek-harness](https://github.com/0xsline/awesome-deepseek-harness) 的 GitHub fork（转载），内容版权归原作者所有，按原许可证发布，署名见提交历史。
 
-[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/awesome-deepseek-harness)
+[![Gitee](https://img.shields.io/badge/Gitee-mirror-c71d23?logo=gitee)](https://gitee.com/perrylink/0xsline-awesome-deepseek-harness)
 
 <!-- BANNER: luminous DeepSeek whale with agent-orchestration harness (1280×480) -->
 
