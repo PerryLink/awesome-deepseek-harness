@@ -273,6 +273,7 @@ Management panel: Settings → Plugins.
 - [Boliban/dsh-enter-customizer](https://github.com/Boliban/dsh-enter-customizer) - Take over the system input shortcuts for the chat input box and configure behavior independently for each shortcut.
 - [PerryLink/dsh-composer-history](https://github.com/PerryLink/dsh-composer-history) - Terminal-style input history for the web composer (edge-first arrows, draft/caret restore, Ctrl+R search, sliding-context awareness) plus a smart input layer: cross-session snippets, prompt templates with variables, reuse insights, and compaction-summary highlighting.
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - Word alternatives and underscore-gated fill-ins in the composer: end a line with `_` and it is filled, misspellings are flagged as you type. Routes through `ctx.llm`, so it needs no API key of its own.
+- [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - Lists the attachments the current session actually received through the WeChat bridge and adopts one into the workspace on demand.
 
 ## UI, Themes & Interaction
 
@@ -433,7 +434,8 @@ Management panel: Settings → Plugins.
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - Peak/off-peak billing cost dial for the DSH Web GUI: session spend and account balance computed at the official rates, a low-balance alarm, drag-to-resize and a minimized status-lamp mode.
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - Usage dashboard: offline-scans session logs to chart daily/weekly/monthly tokens, estimated costs, model/tool/skill/command leaderboards, output speed, working hours and quality metrics; gridstack+ECharts cards are drag-and-drop composable, with custom formulas and AI arrangement (prompt round-trip import).
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - Sidebar panel for token usage and cost: today's spend, budget progress, 7/30-day trends, cost breakdown, cache-hit savings, and per-session breakdown.
-- [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for agent sessions: main path, detours and backtracks on one timeline, per-step data tracks (tools, tokens, context pressure), deterministic analysis (outcome evidence, behavior signals) and multi-session comparison.
+- [dsh-maze](https://github.com/lamost423/dsh-maze) - Execution maze for agent sessions: main path, detours and backtracks on one timeline, per-step data tracks (tools, tokens, context pressure), deterministic analysis (outcome evidence, behavior signals) and multi-session comparison.- [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - Adds a Community Bench tab that reads the public task-conditioned registry and shows the same score everyone sees; it does not compute a local score.
+
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - Desktop agent workspace for DeepSeek Harness on macOS, Windows, and Linux, with shared browser control, integrated files and terminals, remote access, and local model management.
@@ -956,7 +958,8 @@ Management panel: Settings → Plugins.
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - Live hotel and flight prices in USD across Booking.com, Agoda, Trip.com and Traveloka: bundles the remote PriceWin MCP server (no account or API key) and a travel-search skill.
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - Supervision-log checker for DSH: verifies cross-day continuity and side-station coverage of 监理日志 against GB/T 50319-2013, reporting differences only and issuing no qualitative conclusion.
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - SPC control-chart checker for DSH: recomputes control limits and Cp/Cpk from the chart constants, flagging only the register's own arithmetic and constant-table inconsistencies (the pack applies GB/T 17989.2-2020, which supersedes the withdrawn GB/T 4091-2001).
-- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - Customs supporting-document register checker for DSH: flags commodity-code and currency-format mismatches, duplicate document numbers, and gross/net-weight inconsistencies using configurable rules; reports differences without certifying compliance.
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - Customs supporting-document register checker for DSH: flags commodity-code and currency-format mismatches, duplicate document numbers, and gross/net-weight inconsistencies using configurable rules; reports differences without certifying compliance.- [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) - Checks a bid requirement by requirement against a tender requirements pack and reports which requirements appear answered, weakly matched or not located; it reports differences rather than judging substantive compliance.
+
 ## Tools & Utilities
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - Typed System One decision service for DeepSeek Harness plugins, with an agent tool for yes/no checks, classification, and scoring.
 - [dsh-plugin-codemode](https://github.com/Yum-wu/dsh-plugin-codemode) - JavaScript orchestration over DeepSeek Harness tools using Node.js VM or QuickJS WebAssembly backends.

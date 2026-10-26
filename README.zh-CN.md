@@ -272,6 +272,7 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [dsh-file-upload](https://github.com/a903067276-rgb/dsh-file-upload) - 一键上传 + 拖拽文件进对话：保存到项目 uploads/、路径文本进输入框，可配合任意视觉工具。
 - [JohnXu22786/snippet-expander](https://github.com/JohnXu22786/snippet-expander) - Steno：发送前的行内 #tag 快捷展开——多库、别名、{{变量}}、递归防护。
 - [opencues/opencues](https://github.com/opencues/opencues/tree/master/integrations/dsh) - 输入框内的同义词提示与下划线补全：行尾输入 `_` 即自动填充，拼写错误随打随标。走 `ctx.llm`，无需自备 API key。
+- [dsh-phone-inbox](https://github.com/PerryLink/dsh-phone-inbox) - 列出当前会话通过微信桥实际收到的附件，并按需将其中一个采纳到工作区。
 
 ## UI, Themes & Interaction
 
@@ -430,7 +431,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [wjingshan/dsh-cost-gauge](https://github.com/wjingshan/dsh-cost-gauge) - DSH Web 界面的峰谷计费浮动表盘：按官方费率换算本会话花费与账户余额，支持低余额报警、拖拽缩放与最小化状态灯。
 - [weibaohui/dsh-dashboard](https://github.com/weibaohui/dsh-dashboard) - 使用量仪表盘：离线扫描会话日志，统计每日/每周/每月 token、估算费用、模型/工具/技能/命令榜、输出速度、工作时段与质量指标；gridstack+ECharts 卡片可拖拽编排，支持自定义公式与 AI 编排（提示词往返导入）。
 - [olimc2016/dsh-token-meter-panel](https://github.com/olimc2016/dsh-token-meter-panel) - 侧边栏 Token 用量与花费面板：今日消费、预算进度、7/30 天趋势、成本构成、缓存命中节省与按会话拆分。
-- [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。
+- [dsh-maze](https://github.com/lamost423/dsh-maze) - 执行迷宫：把一场会话的主干路径、折返与失败支路画在同一根时间轴上，配逐步数据轨道（工具、Token、上下文压力）、确定性分析（结果与证据、行为信号）与多会话对比。- [dsh-community-bench](https://github.com/PerryLink/dsh-community-bench) - 增加社区基准标签页，读取公开的、按任务条件计算的 registry，展示所有人看到的同一分数；不在本地计算分数。
+
 ## IDE & Clients
 
 - [Minke](https://github.com/lencx/Minke) - 基于 DeepSeek Harness 的桌面 Agent 工作区，支持 macOS、Windows 和 Linux，提供人机共享浏览器控制、集成文件与终端、远程访问和本地模型管理。
@@ -954,7 +956,8 @@ dsh plugin --profile web add "github:owner/repo#ref"
 - [pricewin-dsh](https://github.com/PriceDotWin/pricewin-dsh) - 通过 PriceWin 远程 MCP 服务实时比较 Booking.com、Agoda、Trip.com 和 Traveloka 的酒店与机票价格（美元），附带搜索 Skill。
 - [dsh-site-log-check](https://github.com/PerryLink/dsh-site-log-check) - 监理日志核对：依据 GB/T 50319-2013 等公开文件核对监理日志的跨日连续性与旁站覆盖，仅提示差异，不作出定性结论。
 - [dsh-spc-gbt-adapter](https://github.com/PerryLink/dsh-spc-gbt-adapter) - 控制图台账核对：按控制图常数表重算控制限并交叉核对 Cp/Cpk，只就台账自身的算术与常数表一致性提示差异（规则包采用 GB/T 17989.2—2020，该标准替代已废止的 GB/T 4091—2001）。
-- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。
+- [dsh-customs-doc-check](https://github.com/PerryLink/dsh-customs-doc-check) - 报关配套单证台账核对：按可配置规则提示商品编码与币制格式不符、单证号重复及毛重与净重不一致，仅报告差异，不作合规认定。- [dsh-bid-health-check](https://github.com/PerryLink/dsh-bid-health-check) - 按招标要求逐条检查投标文件的响应位置，报告哪些要求看起来有应答、哪些匹配较弱、哪些未能定位；只报告差异，不判断是否实质满足。
+
 ## Tools & Utilities
 
 - [dsh-system1](https://github.com/exoticknight/dsh-system1) - 为 DeepSeek Harness 插件提供类型化的 System One 判断服务和智能体工具，支持是非判断、分类和评分。
